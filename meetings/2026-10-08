@@ -1,0 +1,42 @@
+# Meeting: Final SRS Review
+
+- **Date:** 2026-10-08
+- **Time:** 7:00pm, 60 min
+- **Location:** Discord voice
+- **Type:** Team meeting (srs deliverable review)
+
+## Attendees
+- Kenny Zhao (Project Manager)
+- William Guo
+- Eric Park
+- Bruce Wang
+- Richard Nguyen
+- Alan Zhou
+
+**Absent:** None
+
+## Agenda
+1. Full-team review pass of the SRS & Project Plan (v0.1 Baseline), due Oct 9
+2. Consistency check across sections (requirement IDs, priorities, metrics, platform)
+3. Formatting and page limit (10–15 pages, 12 pt, 1-inch margins)
+4. Contributions table and Generative AI appendix
+5. Submission logistics (Avenue + `/docs` on GitHub)
+
+## Discussion
+- Walked through each section with its owner; checked that every FR in Section 8 has an input, output, data flow, FE/BE label and acceptance threshold.
+- Checked that the metrics in Section 9.3 match the thresholds used in Sections 8 and 10.
+- Confirmed Windows 10/11 native (MSVC + vcpkg) as the target platform across Sections 7, 14 and 15.
+- Reviewed open questions for Dr. Bone (Section 17.1): ROS 2 integration, C++ requirement beyond the core, Expo date.
+
+## Decisions
+- SRS approved for submission as Version 0.1 Baseline.
+- Contributions split evenly (~16.7% each), as listed in Section 4.
+- File named `srs_team_11.pdf`, submitted via Avenue and committed to `/docs`.
+
+## Action Items
+| Owner | Task | Due |
+|---|---|---|
+| TBD | Final assembly, submit to Avenue, commit PDF to `/docs` | Oct 9 |
+| TBD | Book mid-October supervisor check-in with Dr. Bone (SRS feedback) | Oct 16 |
+| TBD | Fix remaining platform inconsistencies (Docker/Linux references) in the next SRS revision | Next revision |
+| All | Begin Sprint 1 (starts Oct 12) | Oct 12 |
